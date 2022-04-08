@@ -1,0 +1,154 @@
+/*
+para class se usa .nombre
+para id se usa #nombre y son unicos
+
+para atributos [atributo="valor"]
+
+:hover para acciones
+
+1em = 16px por defecto
+
+En normalize
+En img se agrega:
+  max-width: 100%;
+  max-height: 100%;
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+para volver elementos en linea
+display: inline;
+
+interno
+padding: y x; : arriba derecha-right abajo izquierda-left;
+
+Externo
+margin
+
+redondear
+border-radius: 10px;
+
+rotar
+ transform: rotate(45deg);
+
+outline: 10px black;
+
+position: relative;
+top - left
+z-index: 1;
+
+opacity: 0-1;
+
+position: absolute;
+right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+
+Se queda fijo en la pantalla
+position: fixed;
+
+position: sticky;
+    top: 20px;
+
+para que no se desborde
+overflow: auto;
+
+Desplazar a la derecha
+float: right;
+
+transition: background 1s, padding 1s, width 1s;
+
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin
+  flex-grow: 
+  flex-shrink: 
+  flex-basis:  - SIMILAR A WHID
+  order:;
+
+
+     */
+
+body{
+  background: #000;
+
+}
+
+.flex__container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  background: #444;
+  margin :40px auto;
+
+  border: 2px solid #D12CF0;
+  max-width: 700px;
+}
+
+.form{
+  min-width: 400px;
+  flex: 2;
+  text-align: right;
+  margin: 10px;
+  order: 3;
+}
+
+.form__input{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0px;
+  border: none;
+  border-bottom: 2px solid #D12CF0;
+  background: transparent;
+}
+
+.form__input:focus{
+  color: #fff;
+  outline:none;
+  background: #505050;
+}
+
+.form textarea{
+  min-height: 100px;
+  resize: none;
+}
+
+.form__input[type="submit"]{
+  background: #D12CF0;
+  color: #fff;
+  border: none;
+  padding: 10px;
+}
+
+.form__input[type="submit"]:hover{
+  background: #BE29DA;
+  color: #eee;
+}
+
+.form-img{
+  flex: 2;
+  padding: 10px;
+  display: flex;
+  min-width: 200px;
+  max-width: 300px;
+  order: 2;
+  
+}
+
+.form-img img{
+  margin: auto;
+  width: 90%;
+  border-radius: 50%;
+  background: #fff;
+  padding: 10px;
+
+}

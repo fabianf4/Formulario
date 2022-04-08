@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hola</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="">Inicio</a>
+			<a href="">Contactos</a>
+			<a href="">Redes</a>
+		</nav>
+	</header>
+
+	<article>
+		<section>
+			hola
+		</section>
+	</article>		
+	<footer>
+		
+	</footer>
+</body>
+</html>
